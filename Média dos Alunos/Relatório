@@ -1,0 +1,28 @@
+==============================
+RELATÓRIO DO PROGRAMA EM C
+==============================
+
+✅ RESUMO:
+Programa que recebe a média final de vários alunos e classifica cada um como aprovado, em recuperação ou reprovado. Ao final, exibe o total de alunos em cada categoria.
+
+🧠 VARIÁVEIS USADAS:
+- int media → armazena a média informada para cada aluno
+- int contagem → controla o número do aluno atual
+- int alunos → quantidade total de alunos
+- int limite → controla o número de entradas válidas
+- int aprovados → contador de alunos aprovados
+- int reprovados → contador de alunos reprovados
+- int recuperacao → contador de alunos em recuperação
+
+🔧 FUNÇÕES PRINCIPAIS:
+- printf() → exibe mensagens e resultados
+- scanf() → recebe dados do usuário
+- do...while → repete a entrada de médias até atingir o número de alunos
+- if...else → classifica o aluno com base na média
+
+⚠️ OBSERVAÇÕES:
+- A variável `limite` é usada para controle de loop, mas não é inicializada.
+- A linha `while (media < 0 || media > 10);` está fora de contexto e não afeta o fluxo.
+- Há erro de digitação em `printf("Alunos aprodados...")`, o correto seria "aprovados".
+
+==============================
